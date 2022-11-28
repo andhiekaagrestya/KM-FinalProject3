@@ -1,0 +1,248 @@
+*{
+	font-family: "Basic", sans-serif;
+}
+.layanan1, .layanan2, .layanan3{
+	width: 377px;
+	height: 583px;
+	margin-top: 49px;
+	margin-right: 40px;
+}
+.layanan1{
+	background-color: #fdf8e3;
+}
+.layanan2{
+	background-color: #f0f3fa;
+}
+.layanan3{
+	background-color: #feeff0;
+}
+img{
+	width: 319px;
+	height: 284px;
+	margin-top: 17px;
+	margin-left: 25px;
+}
+.card-title{
+	font-size: 20px;
+}
+.card-text{
+	font-size: 20px;
+	margin-top: 22px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.GarisLurus{
+	border: 2px solid #e73587;
+	width: 100px;
+	height: 1px;
+}
+.ReadMore, .SeeAllWork{
+	font-size: 12px;
+	text-decoration: none;
+}
+button{
+	width: 140px;
+	height: 40px;
+	background: linear-gradient(90deg, #e73587, #8c32f0);
+	border: none;
+}
+button img{
+	width: 15px;
+	height: 30px;
+}
+button a:hover{
+	color: white;
+}
+.TombolNext{
+	margin-top: 306px;
+	border: 1px solid white;
+	border-radius: 50%;
+	width: 76px;
+	height: 76px;
+	background: linear-gradient(90deg, #e73587, #8c32f0);
+}
+.OurWork{
+	background-color: #020e35;
+	height: 2392px;
+	padding-top: 391px;
+}
+.Mask1{
+	background-color: #f09532;
+	padding-left: 92px;
+}
+.Mask3{
+	background-color: #e73587;
+	padding-top: 65px;
+}
+.Mask1, .Mask3{
+	height: 390px;
+	width: 617px;
+	margin-top: 60px;
+}
+.Mask1 img{
+	width: 433px;
+}
+.Mask3 img{
+	height: 324.6px;
+}
+.brand1 h2, .brand3 h2{
+	margin-left: 20px;
+	margin-top: 60px;
+}
+.brand1 p, .brand3 p{
+	margin-top: 114px;
+	margin-left: -165px;
+	font-size: 15px;
+}
+.brand1 .isi, .brand3 .isi{
+	margin-top: -300px;
+	margin-left: 665px;
+	margin-right: 180px;
+}
+.brand2, .brand4{
+	margin-top: 70px;
+}
+.Mask2{
+	background-color: #8c32f0;
+	padding-top: 23px;
+	padding-left: 74.39px;
+}
+.Mask4{
+	background-color: #32d6f0;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left: -18px;
+}
+.Mask2, .Mask4{
+	height: 390px;
+	width: 617px;
+}
+.Mask2 img{
+	width: 468.21px;
+	height: 456px;
+}
+.Mask4 img{
+	width: 605px;
+	height: 270px;
+}
+.brand2 p, .brand4 p{
+	margin-right: -170px;
+}
+.brand2 .isi, .brand4 .isi{
+	margin-left: 179px;
+}
+.lhtsmua{
+	margin-top: 240px;
+}
+@media screen and (max-width: 768px){
+	.layanan1, .layanan2, .layanan3{
+	    width: 247px;
+	    height: 373px;
+	    margin-top: 49px;
+	    margin-right: 40px;
+    }
+    .layanan1{
+    	margin-left: -85px;
+    }
+    img{
+	    width: 129px;
+	    height: 94px;
+	    margin-top: 17px;
+	    margin-left: 10px;
+    }
+    .card-title{
+	    font-size: 13.3px;
+    }
+    .card-text{
+	    font-size: 13.3px;
+    }
+    .TombolNext{
+	    margin-top: 306px;
+	    width: 56px;
+	    height: 38px;
+	    margin-right: -40px;
+	    padding-bottom: 5px;
+	    margin-top: 146px;
+    }
+    .TombolNext img{
+    	width: 8px;
+    	height: 16px;
+    }
+    button{
+	    width: 75px;
+	    height: 30px;
+	    padding-bottom: 20px;
+    }
+    .ReadMore, .SeeAllWork{
+	    font-size: 9.5px;
+    }
+    .OurWork{
+    	margin-top: 30px;
+    	padding-top: 300px;
+    	height: 1452px;
+    }
+    .Mask1, .Mask3{
+	    height: 190px;
+	    width: 317px;
+	    margin-left: -75px;
+    }
+    .Mask1 img{
+	    width: 233px;
+	    margin-left: -45px;
+    }
+    .Mask3 img{
+	    height: 134.6px;
+	    margin-top: -25px;
+	    margin-left: 0px;
+    }
+    .brand1 p, .brand3 p{
+    	margin-top: -144px;
+	    margin-left: 255px;
+	    margin-right: -10px;
+	    font-size: 15px;
+    }
+    .brand3{
+    	margin-top: -30px;
+    }
+    .brand3 p{
+    	margin-left: 265px;
+    }
+    .brand1 .isi, .brand3 .isi{
+	    margin-top: -134px;
+	    margin-left: 265px;
+	    margin-right: -80px;
+    }
+    .Mask2, .Mask4{
+	    height: 190px;
+	    width: 317px;
+	    margin-right: -80px;
+	    margin-left: 30px;
+    }
+    .Mask2{
+    	padding-left: 15px;
+    }
+    .Mask2 img{
+	    width: 268.21px;
+	    height: 256px;
+    }
+    .brand2 p{
+    	margin-top: -45px;
+    	margin-right: -5px;
+    }
+    .brand2 .isi, .brand4 .isi{
+    	margin-top: -105px;
+    	margin-left: -80px;
+    }
+    .brand4{
+    	margin-top: 30px;
+    }
+    .Mask4 img{
+	    width: 312px;
+	    height: 120px;
+	    margin-top: -23px;
+    }
+    .lhtsmua{
+	    margin-top: 40px;
+	    width: 100px;
+    }
+}
