@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Basic&display=swap");
+
+body {
+  font-family: "Basic", sans-serif;
+}
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 76px;
+  height: 76px;
+  margin-top: 20%;
+  border-radius: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  z-index: 8;
+}
+
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+  width: 15px;
+  height: 30px;
+  opacity: 0.5;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 1;
+}
+
+.bg-split {
+  background-color: #020E35;
+  width: 100%;
+  height: 335px;
+  margin-top: 305px;
+  position: absolute;
+}
+
+.container-services {
+  padding: 0 10vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.container-services::-webkit-scrollbar {
+  display: none;
+}
+
+#kotak1, #kotak4 {
+  background-color: #fdf8e3;
+}
+
+#kotak2, #kotak5 {
+  background-color: #f0f3fa;
+}
+
+#kotak3, #kotak6 {
+  background-color: #feeff0;
+}
+
+#kotak1 img, #kotak2 img,
+#kotak3 img, #kotak4 img,
+#kotak5 img, #kotak6 img {
+  margin: 7px;
+  width: 100%;
+  height: 284px;
+  filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.2));
+}
+
+.btn {
+  width: 140px;
+  height: 40px;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  align-items: center;
+  justify-content: center;
+}
+
+.figma-btn {
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  color: #fff;
+}
+
+.hr-style {
+  border: solid #e73587;
+  width: 100px;
+}
+
+.half-circle {
+  position: absolute;
+  z-index: -1;
+}
+
+.continue-bg{
+  background-color: #020E35;
+}
+
+.scroll{
+  overflow-x: hidden;
+}
